@@ -14,7 +14,7 @@ esafirm.kotlin-formatter@0.0.6
 esbenp.prettier-vscode@9.0.0
 formulahendry.code-runner@0.11.6
 freeCodeCamp.freecodecamp-dark-vscode-theme@0.1.0
-GitHub.github-vscode-theme@5.0.0
+GitHub.github-vscode-theme@5.0.3
 GrapeCity.gc-excelviewer@3.0.44
 helgardrichard.helium-icon-theme@1.0.0
 idleberg.hopscotch@0.8.1
@@ -36,7 +36,7 @@ ms-vsliveshare.vsliveshare@1.0.4991
 msjsdiag.debugger-for-chrome@4.13.0
 peymanslh.blueberry-dark-theme@1.1.0
 PKief.material-icon-theme@4.10.0
-redhat.java@0.82.0
+redhat.java@1.0.0
 Remisa.shellman@5.6.0
 ritwickdey.LiveServer@5.6.1
 RobbOwen.synthwave-vscode@0.1.10
@@ -46,11 +46,11 @@ teabyii.ayu@1.0.5
 VisualStudioExptTeam.vscodeintellicode@1.2.14
 vscjava.vscode-java-debug@0.36.0
 vscjava.vscode-java-dependency@0.18.8
-vscjava.vscode-java-pack@0.18.5
+vscjava.vscode-java-pack@0.18.6
 vscjava.vscode-java-test@0.32.0
 vscjava.vscode-maven@0.34.0
 vscode-icons-team.vscode-icons@11.6.0
-vscodevim.vim@1.21.8
+vscodevim.vim@1.21.10
 WallabyJs.quokka-vscode@1.0.405
 wesbos.theme-cobalt2@2.2.5
 xabikos.JavaScriptSnippets@1.8.0
