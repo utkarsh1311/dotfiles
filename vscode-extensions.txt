@@ -1,6 +1,7 @@
 ahmadawais.shades-of-purple@6.13.0
 akamud.vscode-javascript-snippet-pack@0.1.6
 akamud.vscode-theme-onedark@2.2.3
+azemoh.theme-onedark@0.6.0
 bceskavich.theme-dracula-at-night@2.7.0
 BeardedBear.beardedtheme@4.0.0
 CoderCoder.codercoder-dark-theme@1.2.2
@@ -10,6 +11,7 @@ donjayamanne.jquerysnippets@0.0.1
 dracula-theme.theme-dracula@2.24.0
 eamodio.gitlens@11.6.1
 EliverLara.andromeda@1.7.0
+enkia.tokyo-night@0.7.9
 esafirm.kotlin-formatter@0.0.6
 esbenp.prettier-vscode@9.0.0
 formulahendry.code-runner@0.11.6
@@ -18,15 +20,17 @@ GitHub.github-vscode-theme@5.0.3
 GrapeCity.gc-excelviewer@3.0.44
 helgardrichard.helium-icon-theme@1.0.0
 idleberg.hopscotch@0.8.1
+jdinhlife.gruvbox@1.5.1
 johnpapa.winteriscoming@1.4.4
 jprestidge.theme-material-theme@1.0.1
 KYDronePilot.material-deep-ocean-theme@0.0.4
 liviuschera.noctis@10.40.0
+lkytal.FlatUI@1.4.9
 lokesh-coder.aditi@0.5.0
 marqu3s.aurora-x@2.0.2
 mathiasfrohlich.Kotlin@1.7.1
-ms-python.python@2021.10.1365161279
-ms-python.vscode-pylance@2021.10.3
+ms-python.python@2021.11.1422169775
+ms-python.vscode-pylance@2021.11.0
 ms-toolsai.jupyter@2021.9.1101343141
 ms-toolsai.jupyter-keymap@1.0.0
 ms-toolsai.jupyter-renderers@1.0.3
@@ -35,6 +39,8 @@ ms-vscode.Theme-MaterialKit@0.1.4
 ms-vscode.Theme-TomorrowKit@0.1.4
 ms-vsliveshare.vsliveshare@1.0.5065
 msjsdiag.debugger-for-chrome@4.13.0
+naumovs.theme-oceanicnext@0.0.4
+Nimda.deepdark-material@3.3.0
 peymanslh.blueberry-dark-theme@1.1.0
 PKief.material-icon-theme@4.10.0
 redhat.java@1.0.0
@@ -43,6 +49,7 @@ ritwickdey.LiveServer@5.6.1
 RobbOwen.synthwave-vscode@0.1.10
 sdras.night-owl@2.0.1
 seansassenrath.vscode-theme-superonedark@0.0.15
+sldobri.bunker@1.1.6
 teabyii.ayu@1.0.5
 VisualStudioExptTeam.vscodeintellicode@1.2.14
 vscjava.vscode-java-debug@0.36.0
