@@ -37,7 +37,7 @@ ms-toolsai.jupyter-renderers@1.0.3
 ms-vscode.cpptools@1.7.1
 ms-vscode.Theme-MaterialKit@0.1.4
 ms-vscode.Theme-TomorrowKit@0.1.4
-ms-vsliveshare.vsliveshare@1.0.5065
+ms-vsliveshare.vsliveshare@1.0.5090
 msjsdiag.debugger-for-chrome@4.13.0
 naumovs.theme-oceanicnext@0.0.4
 Nimda.deepdark-material@3.3.0
