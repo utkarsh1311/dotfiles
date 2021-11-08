@@ -21,7 +21,7 @@ alias init='git init'
 alias add='git add'
 alias clone='git clone'
 alias status='git status'
-alias log='git log'
+alias log='git log --graph'
 alias rao='git remote add origin'
 
 # alias for javaFx
