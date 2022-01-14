@@ -12,6 +12,9 @@ alias cat='batcat'
 alias open='xdg-open'
 alias pyserver='python3 -m http.server 8080'
 alias py='python3'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../../'
 
 # alias for git 
 
