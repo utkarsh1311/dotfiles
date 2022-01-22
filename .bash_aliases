@@ -15,7 +15,7 @@ alias py='python3'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../../'
-
+alias exec='chmod +x'
 # alias for git 
 
 alias commit='git commit -m'
