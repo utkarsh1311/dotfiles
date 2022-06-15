@@ -31,5 +31,5 @@ alias rao='git remote add origin'
 alias javafxc='javac --module-path $JAVA_FX --add-modules javafx.controls'
 alias javafx='java --module-path $JAVA_FX --add-modules javafx.controls'
 
-#alias for npm
-
+#alias for utility
+alias fso='cd /home/utkarsh/Code-Projects/FullStackOpen && code .'
