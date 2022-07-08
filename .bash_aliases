@@ -16,6 +16,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../../'
 alias exec='chmod +x'
+alias vim='nvim'
 # alias for git 
 
 alias commit='git commit -m'

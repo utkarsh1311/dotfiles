@@ -16,6 +16,7 @@ code --list-extensions --show-versions > ./vscode-extensions.txt
 
 # copy other dot files 
 cp  $HOME/{.bashrc,.bash_aliases,.bash_functions,.gitconfig,.profile,.bash_logout} .
+cp  $HOME/.config/nvim/init.vim ./vim/
 
 
 # Check git status
