@@ -32,6 +32,7 @@ call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
 " Declare the list of plugins.
 Plug 'gruvbox-community/gruvbox'
+Plug 'ayu-theme/ayu-vim'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'luisiacc/gruvbox-baby'
 Plug 'junegunn/fzf.vim'
@@ -44,11 +45,18 @@ call plug#end()
 
 let g:gruvbox_bold = '1'
 let g:gruvbox_contrast_dark = 'hard'
-let g:gruvbox_italic=1
+let g:gruvbox_italic = '1'
 colorscheme gruvbox
+" colorscheme ayu
+
+let mapleader = " "
 highlight Normal guibg=none
 nnoremap <silent> <C-f> :Files<CR>
+nnoremap <leader>pg :PlugInstall<CR>
+nnoremap <leader>wq :wq<CR>
+nnoremap <leader>cs :colorscheme
 inoremap <silent><expr> <c-space> coc#refresh()
+
 lua <<EOF
 require('nvim-treesitter.configs').setup {
   highlight = { enable = true },

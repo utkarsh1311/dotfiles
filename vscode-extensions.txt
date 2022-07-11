@@ -3,14 +3,14 @@ akamud.vscode-javascript-snippet-pack@0.1.6
 akamud.vscode-theme-onedark@2.2.3
 azemoh.theme-onedark@0.6.0
 bceskavich.theme-dracula-at-night@2.7.1
-BeardedBear.beardedtheme@6.5.0
+BeardedBear.beardedtheme@6.6.0
 bradlc.vscode-tailwindcss@0.8.6
 brittanychiang.halcyon-vscode@0.2.24
 burkeholland.simple-react-snippets@1.2.6
 CoderCoder.codercoder-dark-theme@1.2.2
 codeSTACKr.codestackr-theme@0.0.8
 codewithHanbal.codestackr-theme@0.0.7
-dbaeumer.vscode-eslint@2.2.2
+dbaeumer.vscode-eslint@2.2.6
 dhedgecock.radical-vscode@3.2.1
 dracula-theme.theme-dracula@2.24.2
 EliverLara.andromeda@1.7.1
@@ -55,7 +55,7 @@ VisualStudioExptTeam.vscodeintellicode@1.2.22
 vscjava.vscode-java-debug@0.42.0
 vscjava.vscode-java-dependency@0.20.0
 vscjava.vscode-java-pack@0.24.0
-vscjava.vscode-java-test@0.35.1
+vscjava.vscode-java-test@0.35.2
 vscjava.vscode-maven@0.36.0
 vscode-icons-team.vscode-icons@11.12.0
 wesbos.theme-cobalt2@2.2.5
