@@ -36,6 +36,7 @@ Plug 'ayu-theme/ayu-vim'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'luisiacc/gruvbox-baby'
 Plug 'junegunn/fzf.vim'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'dracula/vim', { 'as': 'dracula' }
