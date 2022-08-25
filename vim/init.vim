@@ -32,14 +32,19 @@ call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
 " Declare the list of plugins.
 Plug 'gruvbox-community/gruvbox'
+Plug 'sbdchd/neoformat'
 Plug 'ayu-theme/ayu-vim'
 Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'luisiacc/gruvbox-baby'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'junegunn/fzf.vim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'overcache/NeoSolarized'
+Plug 'bluz71/vim-moonfly-colors'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -55,6 +60,7 @@ highlight Normal guibg=none
 nnoremap <silent> <C-f> :Files<CR>
 nnoremap <leader>pg :PlugInstall<CR>
 nnoremap <leader>wq :wq<CR>
+nnoremap <leader>w :w<CR>
 nnoremap <leader>cs :colorscheme
 inoremap <silent><expr> <c-space> coc#refresh()
 
@@ -64,3 +70,6 @@ require('nvim-treesitter.configs').setup {
   indent = { enable = true }
 }
 EOF
+
+let g:neoformat_try_node_exe = 1
+autocmd BufWritePre *.js Neoformat

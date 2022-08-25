@@ -34,3 +34,6 @@ alias javafx='java --module-path $JAVA_FX --add-modules javafx.controls'
 
 #alias for utility
 alias fso='cd /home/utkarsh/Code-Projects/FullStackOpen && code .'
+
+#alias for npm
+alias ns='npm start'
