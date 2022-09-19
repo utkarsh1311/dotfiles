@@ -16,7 +16,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../../'
 alias exec='chmod +x'
-alias vim='nvim'
+alias v='nvim'
 # alias for git 
 
 alias commit='git commit -m'
@@ -37,3 +37,7 @@ alias fso='cd /home/utkarsh/Code-Projects/FullStackOpen && code .'
 
 #alias for npm
 alias ns='npm start'
+
+#alias for mysql server
+alias sqlOn='sudo systemctl start mysql.service'
+alias sqlOff='sudo systemctl stop mysql.service'
