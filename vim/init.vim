@@ -46,23 +46,24 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'overcache/NeoSolarized'
 Plug 'bluz71/vim-moonfly-colors'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'vim-airline/vim-airline'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
 let g:gruvbox_bold = '1'
 let g:gruvbox_contrast_dark = 'hard'
 let g:gruvbox_italic = '1'
-colorscheme gruvbox
 " colorscheme ayu
+colorscheme gruvbox
 
 let mapleader = " "
 highlight Normal guibg=none
-nnoremap <silent> <C-f> :Files<CR>
+nnoremap <silent> <C-f> :NERDTreeToggle<CR>
 nnoremap <leader>pg :PlugInstall<CR>
 nnoremap <leader>wq :wq<CR>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>cs :colorscheme
-nnoremap <leader>ff :NERDTreeToggle<CR>
+nnoremap <leader>q :q!<CR>
 inoremap <silent><expr> <c-space> coc#refresh()
 
 lua <<EOF
@@ -72,5 +73,9 @@ require('nvim-treesitter.configs').setup {
 }
 EOF
 
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>" 
+
+autocmd FileType json syntax match Comment +\/\/.\+$+
 let g:neoformat_try_node_exe = 1
 autocmd BufWritePre *.js Neoformat
