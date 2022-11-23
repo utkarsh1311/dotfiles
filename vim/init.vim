@@ -35,15 +35,19 @@ Plug 'gruvbox-community/gruvbox'
 Plug 'sbdchd/neoformat'
 Plug 'ayu-theme/ayu-vim'
 Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'srcery-colors/srcery-vim'
+Plug 'ThePrimeagen/vim-be-good'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'luisiacc/gruvbox-baby'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'junegunn/fzf.vim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'preservim/nerdtree'
+Plug 'thedenisnikulin/vim-cyberpunk'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'overcache/NeoSolarized'
+Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 Plug 'bluz71/vim-moonfly-colors'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
@@ -54,8 +58,18 @@ let g:gruvbox_bold = '1'
 let g:gruvbox_contrast_dark = 'hard'
 let g:gruvbox_italic = '1'
 " colorscheme ayu
-colorscheme gruvbox
+" colorscheme gruvbox
+"colorscheme cyberpunk
+let g:airline_theme='cyberpunk'
+" set cursorline
+" let g:cyberpunk_cursorline="default"
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
+endif
 
+colorscheme srcery
 let mapleader = " "
 highlight Normal guibg=none
 nnoremap <silent> <C-f> :NERDTreeToggle<CR>
@@ -65,6 +79,7 @@ nnoremap <leader>w :w<CR>
 nnoremap <leader>cs :colorscheme
 nnoremap <leader>q :q!<CR>
 inoremap <silent><expr> <c-space> coc#refresh()
+nnoremap <F5> :wa<CR>:vertical botright term ++kill=term<CR>
 
 lua <<EOF
 require('nvim-treesitter.configs').setup {
@@ -79,3 +94,4 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
 autocmd FileType json syntax match Comment +\/\/.\+$+
 let g:neoformat_try_node_exe = 1
 autocmd BufWritePre *.js Neoformat
+au BufRead,BufNewFile *.md setlocal textwidth=100
